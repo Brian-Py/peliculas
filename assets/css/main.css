@@ -1,0 +1,168 @@
+/*
+    Verde1: #55d6be
+    verde2: #7CFFC4
+    azul: #2E5EAA
+    morado1: #5B4E77
+    morado2: #593959
+*/
+html{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #3F88C5
+}
+a:hover{
+    opacity: 0.5;
+}
+
+.container{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    /* dar valores de acuerdo al tamaño de la pantalla*/
+    height: 100vh;
+    width: 100vw;
+    
+    /* Pone en el centro el contenido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    max-height: 500px;
+    max-width: 960px;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    /* box-shadow: diferenciaHorizontal diferenciaVertical desenfoque amplitud color */
+    box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.16), 1px 4px 10px 2px rgba(0,0,0,0.23);
+    border-radius: 4px;
+    position: relative;
+    padding: 1.8em;
+}
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #8fd3f4;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-size: 15;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red{
+    height: 500px;
+    width: 300px;
+    background-color: aquamarine
+}
+#boton-id{
+    background-color: bisque;
+    height: 40px;
+    width: 80px
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: underline
+}
+
+.parrafo{
+    line-height: 1.8em;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left
+}
+
+.table tr:nth-child(even){
+    background: #B9FFD9
+}
+
+.fa-star{
+    color: #FFC400
+}
+
+.title-item{
+    /*
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #00cec9;
+    padding-bottom: 1em
+    */
+    border-bottom: solid 2px #00cec9;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.position{
+    background-color: #00cec9;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 25px;
+    
+}
+
+.main-img{
+    float: left;
+    margin-right: 1em;
+    height: 270px
+}
+
+.title-pelis{
+    text-transform: capitalize
+}
+.cab{
+    text-transform: uppercase
+}
+.sinopsis{
+    font-size: 20px;
+}
+
+.youtube-link{
+    color: red;
+    font-size: 100px;
+    padding-left: 2em
+}
+
+.pie-pag{
+    text-align: right;
+    font-size: 13px;
+    padding-top: 1.3em
+}
+.pie-pag a{
+    color: #636e72;
+    font-style: italic;
+}
+
+.icono-fb{
+    color: #0984e3;
+    font-size: 18px
+}
+.icono-inst{
+    font-size: 18px;
+    color: #9b59b6
+}
